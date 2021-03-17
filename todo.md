@@ -8,5 +8,8 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
     * Noctis - https://github.com/liviuschera/noctis
     * https://marketplace.visualstudio.com/items?itemName=liviuschera.noctis
 
+* Nomad Terraform Provider set up 
 
-
+* elgato control center
+* streamdeck 
+* logi capture stuff
