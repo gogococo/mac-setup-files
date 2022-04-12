@@ -15,6 +15,12 @@ echo "Brew's cleaning up..."
 brew cleanup
 
 echo "Creating folder structure..."
-[[ ! -d Workspace ]] && mkdir Workspace
+[[ ! -d ~/Workspace ]] && mkdir ~/Workspace
+
+echo "Move copy of zshrc to root"
+cp .zshrc ~/
+
+echo "Move env set up directory to Workspace"
+[[ ! -d ~/Workspace/mac-setup-files ]] && cd .. && mv ./mac-setup-files ~/Workspace/
 
 echo "Bootstrapping complete"
